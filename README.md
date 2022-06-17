@@ -52,7 +52,8 @@ We achieved the best answer by Decision Tree Classification Technique i.e. 100%.
 
 METHODOLOGY
 1. Introduction to Dataset
-This was the dataset we scraped from Internet.![image](https://user-images.githubusercontent.com/56102543/174233557-a6ce2c6c-598e-4c36-a913-e56183374ea4.png)
+This was the dataset we scraped from Internet.
+![image](https://user-images.githubusercontent.com/56102543/174233557-a6ce2c6c-598e-4c36-a913-e56183374ea4.png)
 
 2. Encoding of Categorical Data
 In python using LabelEncoder and OneHotEncoder from sklearn’s preprocessing
