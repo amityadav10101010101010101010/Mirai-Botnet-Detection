@@ -16,7 +16,7 @@ Malicious botnets are often used to amplify DDoS attacks, as well as sending out
 The rise of the IoT makes botnets more dangerous and potentially virulent. The IoT means there are simply many more (usually unsecured) connected devices for attackers to target. As a result, the DHS/Commerce report notes, “DDoS attacks have grown in size to more than one terabit per second, far outstripping expected size and excess capacity. As a result, recovery time from these types of attacks may be too slow, particularly when mission-critical services are involved.”
 Further, the report adds, traditional DDoS mitigation techniques, such as network providers building in excess capacity to absorb the effects of botnets, “were not designed to remedy other classes of malicious activities facilitated by botnets, such as ransomware or computational propaganda.”
 
-METHODOLOGY
+#METHODOLOGY
 1. Introduction to Dataset
 This was the dataset we scraped from Internet.
 
@@ -65,5 +65,5 @@ Accuracy:
 ![image](https://user-images.githubusercontent.com/56102543/174233960-5cc6537b-9d3c-4843-abf5-40a0f14ebda9.png)
 
 
-RESULTS
+#RESULTS
 We achieved the best answer by Decision Tree Classification Technique i.e. 100%.
