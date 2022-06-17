@@ -1,4 +1,4 @@
-# Mirai-Botnet-Attack-Detection
+# Mirai-Botnet-Attack-Detection-Using-Machine-Learning
 Regression and Classification based Machine Learning Project
 INTRODUCTION
 
@@ -53,6 +53,7 @@ We achieved the best answer by Decision Tree Classification Technique i.e. 100%.
 METHODOLOGY
 1. Introduction to Dataset
 This was the dataset we scraped from Internet.
+
 ![image](https://user-images.githubusercontent.com/56102543/174233557-a6ce2c6c-598e-4c36-a913-e56183374ea4.png)
 
 2. Encoding of Categorical Data
@@ -65,6 +66,7 @@ Library we encoded the “Threat Confidence Column [12]” in 0 and 1 for Low an
 We noticed that from the feature of Target IP Address, the part which had any effect
 On the threat was just the Host Address. So we extracted it and made it into a
 separate column.
+
 ![image](https://user-images.githubusercontent.com/56102543/174233759-2b1a878e-8f05-4d37-ae3e-a84b2583541d.png)
 
 4. Applying Multiple Regression To our Model
@@ -72,6 +74,7 @@ We applied Multiple Regression to our data the most relevant columns i.e. Target
 Address and Target Host Address as independent variables. We applied regression on
 Our threat classification and considered value greater than 0.9 as 1 or otherwise 0.
 The graph plotted from it is:
+
 ![image](https://user-images.githubusercontent.com/56102543/174233881-9fadcc5a-9ee4-4427-a565-58f93ce79daa.png)
 
 Here, X-axis: Target Port Address
@@ -92,6 +95,7 @@ results.
 RESULTS
 We achieved the best answer by Decision Tree Classification Technique.
 Accuracy:
+
 ![image](https://user-images.githubusercontent.com/56102543/174233960-5cc6537b-9d3c-4843-abf5-40a0f14ebda9.png)
 
 
