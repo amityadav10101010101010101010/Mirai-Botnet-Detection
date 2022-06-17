@@ -18,40 +18,6 @@ Further, the report adds, traditional DDoS mitigation techniques, such as networ
 
 METHODOLOGY
 1. Introduction to Dataset
-
-2.    Encoding of Categorical Data
-In python using LabelEncoder and OneHotEncoder from sklearn’s preprocessing 
-Library we encoded the “Threat Confidence Column [12]” in 0 and 1 for Low and High 
-
-
-3.    Extracting the Host Address from the Target IP Address
-We noticed that from the feature of Target IP Address, the part which had any effect 
-On the threat was just the Host Address. So we extracted it and made it into a 
-separate column.
-
-
-4.    Applying Multiple Regression To our Model
-We applied Multiple Regression to our data the most relevant columns i.e. Target Port 
-Address and Target Host Address as independent variables. We applied regression on 
-Our threat classification and considered value greater than 0.9 as 1 or otherwise 0.
-
-
-5.    Applying various Classification Techniques
-The Classification techniques we applied are:
-
-K - Nearest Neighbour Classification
-Support Vector Machine Classification
-Kernel Support Vector Machine Classification
-Decision Tree Classification
-Random Forest Classification
-
-And we achieved different accuracy for each of these algorithms which we will discuss in results.
-
-RESULTS
-We achieved the best answer by Decision Tree Classification Technique i.e. 100%.
-
-METHODOLOGY
-1. Introduction to Dataset
 This was the dataset we scraped from Internet.
 
 ![image](https://user-images.githubusercontent.com/56102543/174233557-a6ce2c6c-598e-4c36-a913-e56183374ea4.png)
@@ -99,3 +65,5 @@ Accuracy:
 ![image](https://user-images.githubusercontent.com/56102543/174233960-5cc6537b-9d3c-4843-abf5-40a0f14ebda9.png)
 
 
+RESULTS
+We achieved the best answer by Decision Tree Classification Technique i.e. 100%.
